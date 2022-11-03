@@ -7,18 +7,68 @@
   </head>
 
   <body>
-    <h1 id="title"> survey form to microverse </h1>
-<P id="description">we are working survey form with my partiner marco</P> 
+    <h1 id="title"> survey form for microverse </h1>
+<P id="description">This is a test for the trials</P> 
 
 <div>
 <form id="survey-form">
-   
-  <input type="text" id="name">
-  <input type="email" id="email">
-  <input type="number" id="number" min="18" max="99">
+
+  <label id="name-label">Name:</label><br>
+
+  <input type="text" id="name" required placeholder="Write your name"><br>
+
+  <label id="email-label">Email</label><br>
+
+  <input type="email" id="email" required placeholder="Write your email"><br><br>
+
+  <label id="number-label" >Age</label><br>
+
+  <input type="number" id="number" min="18" max="99" placeholder="write your age"><br><br>
+
+
+ <label type="text">Choose one option</label>
+
+ <label>Option 1
+  <input name="radio-option" type="radio" id="radio" value="first-option">
+ </label> <br>
+ <label>Option 2
+  <input name="radio-option" type="radio" id="radio" value="second-option">
+ </label> <br>
+ 
+ <label type="text">Choose an option:</label>
+
+  <select name="option" id="dropdown">
+    <option value="option">Option A</option>
+    <option value="option">Option B</option>
+    <option value="option">Option C</option>
+    <option value="option">Option D</option>
+  </select>
+
+  <br>
+
+  <label type="checkbox">
+    <label type="text">Choose another option... again</label> <br>
+    <label>Option 1
+      <input value="1" type="checkbox">
+    </label><br>
+    <label>Option 2
+      <input value="2" type="checkbox">
+    </label><br>
+    <label>Option 3
+      <input value="3" type="checkbox">
+    </label><br>
+  </label>
+
+  <textarea></textarea><br>
+
+  <button id="submit">Submit</button>
   
 
 </form>
+
+
+
+
 </div>
 
 
